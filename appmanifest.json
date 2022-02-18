@@ -1,6 +1,6 @@
 ﻿{
-	"name": "Minidayz_ShortMovie",
-	"short_name": "Minidayz_ShortMovie",
+	"name": "MDZ_ShortMovie",
+	"short_name": "MDZ_ShortMovie",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
