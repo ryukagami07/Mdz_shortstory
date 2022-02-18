@@ -21,18 +21,6 @@
 
     <!-- All margins and padding must be zero for the canvas to fill the screen. -->
 	<style type="text/css">
-		@media screen and (orientation: portrait) {
-			html {
-				tranform: rotate(-90deg);
-				tranform-origin: left top;
-				overflow-x: hidden;
-				position: absolute;
-				top: 100%;
-				left: 0;
-				width: 100vh;
-				height: 100vw;
-			}
-		}
 		* {
 			padding: 0;
 			margin: 0;
@@ -73,7 +61,7 @@
 	
 		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
 		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
-		<canvas id="c2canvas" width="1280" height="720">
+		<canvas id="c2canvas" width="640" height="480">
 			<!-- This text is displayed if the visitor's browser does not support HTML5.
 			You can change it, but it is a good idea to link to a description of a browser
 			and provide some links to download some popular HTML5-compatible browsers. -->
